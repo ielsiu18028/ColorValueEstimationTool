@@ -50,7 +50,7 @@ url = 'https://devpicker.com/image-color-picker'
 st.subheader("Xác định mã màu tại đây")
 with st.expander("Xác định màu"):
     st.write(url)
-    st.components.v1.iframe(url, width=1300, height=1300)
+    st.components.v1.iframe(url, width=1300, height=1000)
 
 csv_file_path = 'RefColor.csv'  # Update with the correct path
 reference_points_from_csv = load_reference_points_from_csv(csv_file_path)
