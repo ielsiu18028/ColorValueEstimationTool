@@ -29,13 +29,6 @@ Sau đó, ứng dụng tìm hai màu tham chiếu gần nhất với màu đầu
 - **Xác Định Điểm Gần Nhất**: Nó xác định hai màu tham chiếu gần nhất với màu đầu vào dựa trên khoảng cách màu đã tính toán.
 - **Nội Suy Giá Trị**: Nếu màu đầu vào rất gần với một màu tham chiếu (khoảng cách < 1e-5), giá trị của màu tham chiếu đó sẽ được sử dụng trực tiếp. Nếu không, công cụ thực hiện nội suy tuyến tính để ước lượng giá trị, với khoảng cách đảo ngược trọng số đóng góp của mỗi giá trị tham chiếu.
 
-## Giao Diện Người Dùng
-Ứng dụng có giao diện người dùng đơn giản và trực quan:
-
-- **Chọn Màu**: Người dùng có thể chọn màu mà họ muốn ước lượng giá trị. Điều này có thể được thực hiện bằng cách nhập mã màu hex hoặc sử dụng công cụ chọn màu.
-- **Màu Tham Chiếu và Giá Trị**: Công cụ cho phép người dùng xem và điều chỉnh màu tham chiếu và giá trị liên quan của chúng. Ban đầu, chúng được tải từ một tệp CSV.
-- **Ước Lượng Giá Trị**: Khi chọn màu và nhấp vào nút 'Ước Lượng Giá Trị', giá trị ước lượng cho màu được chọn sẽ được hiển thị.
-
 ## Cài Đặt và Phụ Thuộc
 - **Streamlit**: Ứng dụng được xây dựng sử dụng khung Streamlit.
 - **NumPy**: Sử dụng cho các phép toán số học.
